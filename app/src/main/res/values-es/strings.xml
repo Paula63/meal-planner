@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">UI_Project</string>
+
+    <!--Titles for onboarding screen -->
+    <string name="title_first_slide">Planificar comidas</string>
+    <string name="title_second_slide">Ver recetas según la categoría</string>
+    <string name="title_third_slide">Explore nuevos platos</string>
+    <string name="title_fourth_slide">Mejorar las habilidades culinarias</string>
+
+    <!--Descriptions for onboarding screen -->
+    <string name="description_first_slide">Planifique su lista de compras según lo que planea cocinar</string>
+    <string name="description_second_slide">Encuentre inspiración en recetas para el desayuno, el almuerzo, la cena o las dietas veganas / vegetarianas</string>
+    <string name="description_third_slide">Expande tus horizontes de recetas</string>
+    <string name="description_fourth_slide">Conviértete en la chef que quieres ser</string>
+
+    <!--Buttons for onboarding screen -->
+    <string name="skip_btn">Omitir</string>
+    <string name="continue_btn">Seguir</string>
+    <string name="done_btn">Hecho</string>
+    <string name="submit_btn">Confirmar</string>
+
+    <!-- Categories -->
+    <string name="breakfast">Recetas de desayuno</string>
+    <string name="lunch">Recetas para el almuerzo</string>
+    <string name="dinner">Recetas De Cena</string>
+    <string name="vegan">Recetas veganas</string>
+    <string name="shopping">Lista de la compra</string>
+
+    <!-- Breakfast Recipes -->
+    <string name="toast">Tostada de huevo, salmón ahumado y aguacate</string>
+    <string name="blueberry">Donuts de desayuno con mermelada de arándanos</string>
+    <string name="apple">Cazuela de tostadas francesas con manzana y caramelo</string>
+    <string name="chewy">Granola súper tostada con fruta masticable</string>
+
+    <!-- Lunch Recipes -->
+    <string name="salad">Ensalada Mediterránea De Pollo A La Parrilla</string>
+    <string name="wrap">Wraps de pollo al limón con tomates</string>
+    <string name="pasta">Pesto Penne de oriandro con naranja</string>
+    <string name="soup">Sopa de Verduras Casera con Pavo</string>
+
+    <!-- Dinner Recipes -->
+    <string name="noodles">Fideos de huevo salteados con pechuga de pollo desmenuzada</string>
+    <string name="salmon">Salmón teriyaki con judías verdes y arroz blanco</string>
+    <string name="pasta_bake">Horneado de pasta de pollo y queso pegajoso</string>
+    <string name="creamy">Guiso Cremoso con Mini Patatas Trituradas</string>
+
+    <!-- Vegan Recipes -->
+    <string name="tomato">Sopa italiana de tomate asado y pan crujiente</string>
+    <string name="squash">Calabaza al Horno con Arroz y Cebolla</string>
+    <string name="coconut">Curry de calabaza, garbanzos y coco</string>
+    <string name="cauliflower">Guiso de coliflor de inspiración griega con guisantes</string>
+
+    <!-- menu -->
+    <string name="nav_home">Casa</string>
+    <string name="nav_shopping">Lista de la compra</string>
+    <string name="nav_login">Iniciar sesión</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_register">Registrarse</string>
+    <string name="sort_list">Orden alfabético</string>
+    <string name="add_item_list">Añadir artículo</string>
+    <string name="clear_item_list">Limpiar lista</string>
+
+    <!--App title and slogan-->
+    <string name="title">cookbook</string>
+    <string name="slogan">Planificadora de comidas</string>
+    <string name="title_activity_shopping__list">Shopping_List</string>
+    <string name="camera">Cámara</string>
+    <string name="gallery">Galería</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Primer fragmento</string>
+    <string name="second_fragment_label">Segundo fragmento</string>
+    <string name="next">Próxima</string>
+    <string name="previous">Previa</string>
+
+    <string name="hello_first_fragment">Hola primer fragmento</string>
+    <string name="hello_second_fragment">Hola segundo fragmento. Arg: %1$s</string>
+
+
+    <!-- recipes ingredients-->
+    <string name="ingredients">Ingredientes</string>
+    <string name="directions">Direcciones</string>
+    <string name="ingr_tomato_soup">- 2 kg de tomates maduros \n- 2 cebollas rojas, aceite de oliva\n- 1 litro de caldo de verduras orgánicas\n- 1 pizca de orégano seco \n- na ramitas de albahaca fresca\n- vinagre de vino tinto\n- extra aceite de oliva virgen\n- 1 x 280 g de pan ciabatta</string>
+    <string name="dir_tomato_soup">- Precalienta el horno a 200 ° C / 400 ° F / gas 6. \n- Corta los tomates por la mitad y colócalos con el lado cortado hacia arriba en una bandeja grande para asar. \n- Rompe el bulbo de ajo en dientes. \n- Pela y corta los cebollas en gajos de 3 cm, luego esparcir ambas en la bandeja.
+        \n- Espolvoree con orégano, sazone con sal marina y pimienta negra, luego rocíe con aceite.\n- Vierta el caldo, luego pique en trozos grandes y agregue los tallos de albahaca con la mayoría de las hojas. \n- Corte el pan ciabatta en la mitad y la mitad en la sopa. \n- Haga hervir y cocine a fuego lento durante 10 minutos.
+        \n- Mientras tanto, poner una sartén a fuego alto.\n- Cortar la ciabatta restante y la plancha hasta que se quemen ligeramente por ambos lados.</string>
+    <string name="ingr_salad">- 2 pechugas de pollo deshuesadas y sin piel (aproximadamente 1 1/4 libras) \n- 1 cucharadita. cilantro molido\n- 1 cucharadita. orégano seco\n- 5 cucharadas. aceite de oliva extra virgen\n- 4 cdas. vinagre de vino tinto\n- 1 cucharada. perejil recién picado
+        \n- 3 pepinos persas, en rodajas finas\n- 1 c. tomates cherry o uva, cortados por la mitad\n- 2 aguacates, en rodajas\n- 4 oz. queso feta, desmenuzado\n- 1/2 c. aceitunas kalamata sin hueso, cortadas por la mitad</string>
+    <string name="dir_salad">- Caliente la parrilla a fuego medio-alto. Sazone el pollo con cilantro, orégano, sal y pimienta. Ase, tapado, dando vuelta a la mitad, hasta que esté dorado y ya no esté rosado, de 18 a 22 minutos. Deje reposar 5 minutos, luego corte en rodajas.\n- Mientras tanto, prepare el aderezo. Batir el aceite de oliva, el vinagre de vino tinto y el perejil en un tazón pequeño y sazonar con sal y pimienta.
+       \n- Divida la lechuga, los pepinos, los tomates, el aguacate, el queso feta y las aceitunas en cuatro tazones para servir. Cubra con pollo en rodajas, luego rocíe con aderezo.</string>
+    <string name="ingr_cauliflower">- 1 limón\n- aceite de oliva\n- 1 bulbo de ajo\n- 2 cebollas rojas\n- 10 aceitunas negras\n- 300 g de patatas nuevas\n- ½ un manojo de orégano fresco, (15g)\n- 10 tomates ciruela maduros grandes
+        \n- 1 cabeza de coliflor, idealmente con hojas (800 g)\n- 200 g de guisantes frescos o congelados, o habas</string>
+    <string name="dir_cauliflower">- Precaliente el horno a 200ºC / 400ºF / gas 6. Use un pelador rápido para pelar la ralladura de limón en una cacerola grande a fuego medio, luego agregue 2 cucharadas de aceite y el bulbo de ajo. Pelar y cortar en cuartos las cebollas y separarlas en pétalos, quitar las aceitunas y cortar las patatas en rodajas de 1 cm de grosor. Agregue a la sartén, recoja las hojas de orégano y cocine por 5 minutos, o hasta que comience a ablandarse y color. Cortar en cuartos y agregar los tomates, luego sazonar al gusto con sal marina y pimienta negra.
+        \n- Vierta 500ml de agua en la olla y deje que hierva, revolviendo bien y raspando los pedazos pegajosos del fondo. Deseche solo las hojas exteriores andrajosas de la coliflor, luego corte una cruz en el tallo y empújela hasta el fondo de la sartén. Rocíe con 1 cucharada de aceite, cubra, luego coloque en el horno durante 1 hora, o hasta que esté dorado y caramelizado, rociando ocasionalmente y quitando la tapa a la mitad.
+        \n- Retire la coliflor a una fuente y saque el bulbo de ajo, luego vuelva a colocar la sartén a fuego medio en el fuego, agregue los guisantes o las habas y cocine a fuego lento durante 5 minutos. Exprima con cuidado todo el ajo de la piel y revuelva en la sartén. Pruebe y modifique el condimento, si es necesario, luego vierta sobre la coliflor y termine con un buen chorrito de jugo de limón.</string>
+    <string name="ingr_squash">- 1 calabacín\n- aceite de oliva\n- 1 cebolla morada\n- 1 diente de ajo\n- 1 manojo de salvia fresca, (30g\n- 10 tomates secados al sol\n- 75 g de castañas envasadas al vacío\n- 75 g de arroz basmati\n- 75 g de arándanos secos\n- 1 pizca de pimienta gorda molida</string>
+    <string name="dir_squash">- Precalentar el horno a 180 ° C / 350 ° F / gas 4. Lavar la calabaza, cortarla con cuidado por la mitad a lo largo, luego retirar y reservar las semillas. Use una cuchara para marcar y sacar un poco de carne, haciendo un barranco para el relleno a lo largo de la calabaza. Picar finamente la pulpa extraída con las semillas y poner en una sartén a fuego medio con 2 cucharadas de aceite.
+        \n- Pelar, picar finamente y agregar la cebolla y el ajo, removiendo regularmente mientras recoges las hojas de salvia y las picas finamente con los tomates secos y las castañas. Revuelva en la sartén con el arroz, los arándanos y la pimienta de Jamaica, agregue una buena pizca de sal marina y pimienta negra y un trago de vino tinto, y mezcle bien. Freír durante 10 minutos o hasta que se ablanden, revolviendo ocasionalmente.
+        \n- Empaque la mezcla firmemente en el barranco en las dos mitades de calabaza, luego presione las mitades firmemente para juntarlas. Frote la cáscara de la calabaza con un poco de aceite, sal y pimienta, y si las tiene, dé palmaditas en las hojas de hierbas adicionales que tenga a mano. Coloque la calabaza en el centro de una doble capa de papel de aluminio y luego envuélvala bien. Hornee durante aproximadamente 2 horas o hasta que esté suave y cocido.</string>
+    <string name="ingr_coconut">- 1 calabaza o zapallo\n- 4 cm de jengibre\n- 4 chalotas\n- 4 dientes de ajo\n- 1 guindilla roja fresca\n- 1 manojo de cilantro fresco\n- aceite de cacahuete
+        \n- 1 cucharadita de semillas de mostaza\n- 20 hojas de curry\n- 1 cucharadita de cúrcuma\n- 1 lata de 400 g de tomates picados\n- 2 latas de 400 g de leche de coco light\n- 2 latas de 400 g de garbanzos</string>
+    <string name="dir_coconut">- Pica la calabaza o zapallo en trozos de 3 cm y corta el jengibre en palitos de fósforo. Recoge las hojas de cilantro y pica finamente los tallos.
+        \n- Vierta una buena cantidad de aceite de cacahuete en una cacerola grande y colóquela a fuego alto. Agrega el jengibre, el ajo, la guindilla roja y las chalotas, luego reduce a fuego medio. Cocine hasta que esté dorado, revolviendo ocasionalmente, luego agregue las semillas de mostaza, las hojas de curry y los tallos de cilantro y fría hasta que las hojas de curry estén crujientes.
+        \n- Agrega la cúrcuma, los tomates y la leche de coco. Llevar a ebullición, luego agregar la calabaza y los garbanzos. Reduzca a fuego lento, cubra con una tapa y cocine a fuego lento durante 45 minutos. Revísalo de vez en cuando y agrega un chorrito de agua si se ve un poco seco.
+        \n- Cuando se acabe el tiempo, quite la tapa y cocine durante unos 15 minutos más hasta que la salsa esté deliciosa y espesa.</string>
+    <string name="ingr_wrap">- 1/4 taza más 2 cucharadas. aceite de oliva extra virgen, dividido\n- Jugo de 3 limones, dividido\n- 2 dientes de ajo, picado\n- 1 cdta. Condimento italiano\n- Sal kosher\n- Pimienta negra recién molida
+        \n- 1 libra de pechugas de pollo deshuesadas y sin piel\n- 1/2 c. yogur griego natural\n- 1/2 cucharadita. pimentón \n- Salsa picante, al gusto\n- Pan pita\n- Lechuga mantecosa\n- Tomates en rodajas</string>
+    <string name="dir_wrap">- Haga la marinada: En un tazón pequeño, mezcle 1/4 taza de aceite, jugo de 2 limones, ajo, condimento italiano, sal y pimienta. En una bolsa ziploc grande, agregue las pechugas de pollo y la marinada y mezcle para cubrir. Deje marinar durante al menos 30 minutos y hasta 4 horas.
+        \n- En una sartén grande a fuego medio-alto, caliente las dos cucharadas de aceite restantes. Agregue las pechugas de pollo y cocine hasta que estén doradas y bien cocidas, aproximadamente 8 minutos por lado. Retirar de la sartén y dejar reposar unos minutos, luego cortar en rodajas.
+        \n- Prepare salsa de yogur picante: En un tazón pequeño, mezcle el yogur, la salsa picante, el jugo de limón restante y sazone con pimentón y más sal.
+        \n- Ensamble las envolturas: A un pedazo de pita, agregue lechuga, tomate, rodajas de pollo y rocíe con salsa de yogur picante. Envuelva en un trozo de pergamino y sirva.</string>
+    <string name="ingr_pesto">- 100 g de anacardos\n- 0.5 - Solo jugo de lima\n- 1 cucharadita de sal\n- 50 g de cilantro fresco, incluidos los tallos
+        \n- 2 naranjas pequeñas peladas y cortadas en trozos pequeños\n- 150 ml de aceite de girasol\n- 500 g Penne integral\n- 3 dientes de ajo</string>
+    <string name="dir_pesto">- Pelar el ajo y ponerlo en una licuadora con el resto de los ingredientes del pesto y batir hasta que quede suave.
+        \n- Cocine la pasta en una olla grande con agua hirviendo con sal según las instrucciones del paquete, que normalmente es de 10 a 12 minutos. Escurrir y enjuagar.
+        \n- Vuelva a poner la pasta escurrida en la misma olla junto con el pesto y revuelva hasta que esté bien mezclado y todo caliente. Revuelva los trozos de naranja a través de la pasta y sirva de inmediato.</string>
+    <string name="ingr_veggie">- 1 pizca de pimienta negra\n- 1 cabeza de brócoli picado\n- 1 perilla de mantequilla\n- 1 litro de caldo de pollo en cubos\n- 300 g de pavo cocido cortado en cubitos\n- 4 dientes de ajo picado
+        \n- 3 cebollas picadas\n- 1 pizca de sal\n- 1 zanahoria picada\n- 0.5 cabezas de coliflor picada\n- 1 calabacín picada\n- 2 cucharadas de crema \n- 2 puerro</string>
+    <string name="dir_veggie">- Derretir la mantequilla en una sartén grande a fuego medio, luego rehogar las cebollas y el ajo durante 10 minutos. Agregue los puerros y sude durante 5 minutos más antes de agregar las verduras restantes.
+        \n- Cubrir las verduras con el caldo, añadiendo un poco más de agua si es necesario. Lleve a ebullición, luego reduzca el fuego y cocine a fuego lento durante 15 minutos, hasta que las verduras estén tiernas.
+        \n- Licue la sopa hasta obtener una consistencia suave con una batidora de mano. (Si está usando una licuadora grande, deje que la sopa se enfríe antes de licuar, ya que nunca debe licuar líquido caliente en una licuadora).
+        \n- Vuelva a colocar la sopa en la olla con el pavo y cocine por otros 10 minutos, hasta que la carne esté completamente recalentada. Finalmente, agregue la nata y sazone con una pizca de sal y pimienta.</string>
+    <string name="ingr_noodles">- 225 g de fideos de huevo secos o frescos\n- 1 cucharada de aceite de sésamo, más 1 cucharadita\n- 100 g de pechugas de pollo deshuesadas y sin piel, cortadas en trozos finos\n- 2½ cucharadas de aceite de cacahuete
+        \n- dientes de ajo, finamente picados\n- 50g de tirabeques, finamente rallado\n- 50g de prosciutto o jamón cocido, finamente rallado\n- 2 cucharaditas de salsa de soja clara\n- 2 cucharaditas de salsa de soja oscura
+        \n- 1 cucharada de vino de arroz Shaohsing o jerez seco\n- ½ cucharadita de pimienta blanca recién molida\n- ½ cucharadita de azúcar en polvo dorada\n- 2 cebolletas, finamente picadas</string>
+    <string name="dir_noodles">- Cocine 225 g de fideos de huevo en una olla grande con agua hirviendo durante 3-5 minutos, luego escurra y póngalos en agua fría. Escurrir bien, mezclar con 1 cucharada de aceite de sésamo y reservar.
+        \n- Combine 100 g de pechugas de pollo, cortadas en tiras finas, con 2 cucharaditas de salsa de soja ligera, 2 cucharaditas de vino de arroz Shaohsing o jerez seco, 1 cucharadita de aceite de sésamo, ½ cucharadita de pimienta blanca y ½ cucharadita de sal para la marinada, mezcle bien y luego dejar marinar unos 10 min.
+        \n- Caliente un wok a fuego alto. Agrega 1 cucharada de aceite de maní y, cuando esté muy caliente y ligeramente humeante, agrega las tiras de pollo.
+        \n- Sofreír durante unos 2 minutos y luego transferir a un plato. Limpie el wok con un paño, vuelva a calentar hasta que esté muy caliente y luego agregue 1 ½ cucharada de aceite de maní.
+        \n- Cuando el aceite esté ligeramente humeante, agregue los 2 dientes de ajo finamente picados y sofría durante 10 segundos. Añada 50 g de escabeche finamente rallado y 50 g de jamón serrano finamente rallado y saltee durante aproximadamente 1 minuto.
+        \n- Agregue los fideos, 2 cucharaditas de salsa de soja clara, 2 cucharaditas de salsa de soja oscura, 1 cucharada de vino de arroz Shaohsing o jerez seco, ½ cucharadita de pimienta blanca, ½ cucharadita de azúcar en polvo, 2 cebollas tiernas finamente picadas y 1 cucharadita de sal.
+        \n- Sofreír durante 2 minutos. Regrese el pollo y los jugos a la mezcla de fideos. Sofreír durante unos 3-4 minutos o hasta que el pollo esté cocido.</string>
+    <string name="ingr_salmon">- 4 filetes de salmón\n- 100 g de judías verdes, puntas recortadas\n- 1 limón, cortado en gajos\n- 2 cucharadas de salsa de soja baja en sal\n- 1 cucharada de miel\n- 1 cucharada de mirin\n- 1 diente de ajo\n- 500g arroz triturado</string>
+    <string name="dir_salmon">- Caliente el horno a 180C / 160C ventilador / gas 4. Si tiene un trozo de salmón entero, córtelo en cuatro filetes. Coloque una hoja de papel para hornear en una bandeja para hornear y coloque el salmón diagonalmente sobre ella.
+        \n- Cuece los frijoles en agua hirviendo durante 1 min y escurre. Coloca los frijoles en pilas alrededor del salmón y agrega las rodajas de limón a la bandeja para hornear. Mezcle la salsa de soja, la miel, el mirin y el ajo y vierta la mitad sobre los frijoles y el salmón.
+        \n- Cocine por 15 minutos, luego vierta el resto de la salsa sobre el salmón. Cocine por otros 5 minutos. Exprime el limón y sirve con arroz.</string>
+    <string name="ingr_pasta_bake">- 4 cucharadas de aceite de oliva\n- 1 cebolla, finamente picada\n- 2 dientes de ajo, triturados\n- ¼ cucharadita de hojuelas de chile\n- 2 latas de 400 g de tomates picados\n- 1 cucharadita de azúcar en polvo
+        \n- 6 cucharadas de mascarpone\n- 4 pechugas de pollo sin piel, cortadas en tiras\n- 300g de penne\n- 70g de queso cheddar maduro, rallado\n- 50g de mozzarella rallada\n- ½ manojo pequeño de perejil, finamente picado</string>
+    <string name="dir_pasta_bake">- Calentar 2 cucharadas de aceite en una sartén a fuego medio y sofreír la cebolla a fuego lento durante 10-12 minutos. Agrega el ajo y las hojuelas de guindilla y cocina por 1 min.
+        \n- Agrega los tomates y el azúcar y sazona al gusto. Cocine a fuego lento sin tapar durante 20 minutos o hasta que espese, luego revuelva con el mascarpone.
+        \n- Calentar 1 cucharada de aceite en una sartén antiadherente. Sazone el pollo y fríalo durante 5-7 minutos o hasta que esté bien cocido.
+        \n- Caliente el horno a 220C / 200C ventilador / gas 7. Cocine el bolígrafo siguiendo las instrucciones del paquete. Escurrir y mezclar con el aceite restante. Coloca la pasta en una fuente refractaria de tamaño mediano. Agrega el pollo y vierte sobre la salsa.
+        \n- Cubra con el queso cheddar, la mozzarella y el perejil. Hornee por 20 minutos o hasta que esté dorado y burbujeante.</string>
+    <string name="ingr_creamy">- 3 puerros, cortados por la mitad y en rodajas finas\n- 2 cucharadas de aceite de oliva, más extra si es necesario\n- 1 cucharada de mantequilla\n- 8 muslos de pollo pequeños\n- 500 ml de caldo de pollo
+        \n- 1 cucharada de mostaza de Dijon\n- 75 g de crema fresca\n- 200 g de guisantes congelados\n- 3 cucharadas de pan rallado seco o fresco\n- manojo pequeño de perejil, finamente picado</string>
+    <string name="dir_creamy">- Vierta los puerros y el aceite en una cazuela ignífuga a fuego lento, agregue la mantequilla y cocine todo muy suavemente durante 10 minutos o hasta que los puerros estén blandos.
+        \n- Ponga el pollo, con la piel hacia abajo, en una sartén grande antiadherente a fuego medio, cocine hasta que la piel se dore, luego voltee y dore el otro lado. No debería necesitar aceite, pero si la piel comienza a pegarse, agregue un poco. Agregue el pollo a los puerros, dejando la grasa en la sartén.
+        \n- Agregue el caldo al plato y cocine a fuego lento, sazone bien, tape y cocine por 30 minutos a fuego lento. Agregue la mostaza, la crema fresca y los guisantes y cocine a fuego lento. Deberías tener bastante salsa.
+        \n- Cuando esté listo para servir, encienda la parrilla. Mezclar el pan rallado y el perejil, espolvorear sobre el pollo y asar hasta que se dore.</string>
+    <string name="ingr_toast">- nuez de mantequilla\n- 2 rebanadas de pan blanco\n- ½ aguacate maduro\n- ½ limón, más una rodaja para servir\n- un puñado de berros\n- 1 huevo grande\n- pocas rodajas de salmón ahumado</string>
+    <string name="dir_toast">- Calentar una sartén grande a fuego medio. Unte con mantequilla ambos lados de cada rebanada de pan, luego corte un corazón grande (o círculo) del centro de una rebanada con un cuchillo o un cortador de galletas.
+        \n- Coloque las rebanadas de pan, incluido el trozo recortado, en la sartén y cocine durante 2 min hasta que estén doradas. Mientras se cocina el pan, corte el aguacate y exprima el jugo de limón. Mezcle también los berros en un poco de jugo de limón.
+        \n- Da la vuelta al pan y luego rompe el huevo en el agujero recortado. Después de 1-2 minutos, toda la rebanada de pan y el trozo recortado deben estar dorados por ambos lados. Transfiera a un plato.
+        \n- Cubra la sartén con una tapa, o con papel aluminio, y baje el fuego. Continúe cocinando durante 1-2 minutos más hasta que el huevo esté cocido a su gusto.
+        \n- Cubra la rebanada de pan tostado con el aguacate, el salmón ahumado y los berros, y sazone con un toque de pimienta. Pon la rodaja de huevo en el hoyo encima y sírvela con una rodaja extra de limón, si quieres.</string>
+    <string name="ingr_donuts">- 100 g de dátiles Medjool\n- 100 g de harina integral con levadura\n- 100 g de harina con levadura, más extra para espolvorear\n- 30 g de almendras molidas\n- 1 huevo grande de granja
+        \n- aceite de oliva\n- 320g de arándanos\n- 1 cucharada de miel líquida\n- 4 cucharadas de yogur griego\n- canela molida</string>
+    <string name="dir_donuts">- Arranca las piedras de los dátiles y coloca la pulpa en un robot de cocina con las harinas, la almendra molida, el huevo, una pizca de sal marina y 70ml de agua.
+        \n- Blitz hasta que se combinen y formen una bola de masa, luego amase aproximadamente en una superficie limpia espolvoreada con harina durante solo 2 minutos.
+        \n- Extienda la masa de 1,5 cm de grosor, luego use un cortador de 8 cm para cortar dos rondas. Use un cortador de 3 cm para hacer un agujero en el centro de cada uno, luego use esos trozos centrales y los cortes restantes de masa para extenderlo nuevamente, repitiendo el proceso hasta que tenga cuatro donas en total.
+        \n- Cocine a fuego lento las rosquillas en una olla grande con agua hirviendo suavemente durante 5 minutos, dándoles la vuelta con mucho cuidado a la mitad.
+        \n- Coloca una sartén grande a fuego medio con 1 cucharada de aceite. Escurre bien las rosquillas, luego transfiérelas con cuidado a la sartén para que se doren durante 10 minutos, volteándolas regularmente para formar una buena corteza.
+        \n- Una vez que se vea bien, agregue los arándanos a la sartén, luego rocíe sobre la miel. Mueve y agita la sartén sobre el fuego durante un par de minutos, usando una cuchara para seguir dando vuelta a las donas en todo ese delicioso jugo de arándanos de mermelada.
+        \n- Cuando se vea bonito y brillante y las donas estén moradas, ondular el yogur por la sartén y dividir entre los platos. Agradable con una pizca de canela, para terminar.</string>
+    <string name="ingr_granola">- 8 cucharadas de miel\n- 75 g de almendras con piel\n- 300 g de copos de avena\n- 40 g de pipas de girasol\n- 40 g de pipas de calabaza \ n- 30 g de coco desecado
+        \n- 50 g de dátiles\n- 50 g de guindas secas\n- 50 g de albaricoques secos\n- 50 g de duraznos secos</string>
+    <string name="dir_granola">- Precalienta el horno a 150ºC / 300ºF / gas 2 y calienta la miel en una cacerola.
+        \n- Pica las almendras y úntalas en una bandeja de horno grande con la avena, las semillas y el coco.
+        \n- Vierta sobre la miel tibia y mezcle con una cuchara, luego póngalo en el horno por 20 minutos, revolviendo de vez en cuando.
+        \n- Mientras tanto, destrone los dátiles y pique con el resto de la fruta.
+        \n- Pasados ​​los 20 minutos, agregue toda la fruta, revuelva una vez y vuelva a colocarla en el horno por otros 10 minutos. Debería agruparse bien.
+        \n- Retirar del horno y dejar enfriar antes de romperlo y guardarlo en frascos o recipientes herméticos hasta por 1 mes.
+        \n- Servir con yogur y fruta de temporada fresca o pochada.</string>
+    <string name="ingr_apple">- 1 barra de pan francés\n- 6 huevos\n- 1 1/2 tazas de leche\n- 1/3 taza de azúcar\n- 1 cucharada. vainilla\n- 6 manzanas peladas, sin corazón y en rodajas
+        \n- 1/2 taza de azúcar\n- 1/2 taza de azúcar morena\n- canela al gusto\n- nuez moscada al gusto\n- 1 frasco de cobertura de caramelo</string>
+    <string name="dir_apple">- Corte el pan en rebanadas grandes (de aproximadamente 3 pulgadas de ancho) y colóquelo en un molde ligeramente rociado de 9x13 pulgadas.
+        \n- En un tazón grande, bata los huevos, la leche, el azúcar y la vainilla. Vierta la mezcla sobre las rebanadas de pan. Coloque las manzanas sobre el pan.
+        \n- Espolvoree canela, nuez moscada y azúcares (espolvoree el azúcar moreno más generosamente) sobre las manzanas. Cubra y refrigere durante la noche.
+        \n- Por la mañana hornee por 1 hora a 350 hasta que estén doradas.
+        \n- Cubra con su cobertura de caramelo favorita. Mrs. Richardsons Butterscotch Caramel es nuestro favorito, pero incluso mejor que eso es hacerlo con caramelos en bolsas: 1 paquete de caramelos envueltos y 2/3 taza de crema batida. Derretir en microondas.</string>
+
+    <string name="enter_username">Introduzca su nombre de usuario</string>
+    <string name="enter_password">Introducir la contraseña</string>
+    <string name="create_account">Crear una cuenta</string>
+    <string name="full_name">Ingrese su nombre completo</string>
+    <string name="email">Ingrese correo electrónico</string>
+    <string name="confirm_pass">Confirmar contraseña</string>
+    <string name="phone_no">Ingresa número telefónico</string>
+
+
+</resources>

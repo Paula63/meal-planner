@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ui_project"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Cookbook"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Profile"></activity>
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".StartUpScreen" />
+        <activity android:name=".Creamy_Chicken" />
+        <activity android:name=".Bake" />
+        <activity android:name=".Salmon" />
+        <activity android:name=".Noodles" />
+        <activity android:name=".Cauliflower" />
+        <activity android:name=".Squash" />
+        <activity android:name=".Curry" />
+        <activity android:name=".Vegetable_Soup" />
+        <activity android:name=".Pesto" />
+        <activity android:name=".Salad" />
+        <activity android:name=".Chicken_Wrap" />
+        <activity
+            android:name=".Shopping_List"
+            android:label="@string/title_activity_shopping__list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OnBoarding" />
+        <activity android:name=".Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tomato_Soup" />
+        <activity android:name=".Granola" />
+        <activity android:name=".Blueberry_Donuts" />
+        <activity android:name=".Egg_Toast" />
+        <activity android:name=".Caramel_Apple" />
+        <activity android:name=".Vegan_Recipe" />
+        <activity android:name=".Dinner_Recipe" />
+        <activity android:name=".Lunch_Recipe" />
+        <activity android:name=".Breakfast_Recipe" />
+        <activity android:name=".MainActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lunch_Recipe"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginBottom="399dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/lunch_background"
+            app:contentScrim="@color/backgroundColor"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="18dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolBarId"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:gravity="center"
+            android:id="@+id/lunch_layout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <!--first recipe-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/chicken_wrap"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="180dp"
+                    android:layout_height="220dp"
+                    android:layout_margin="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:layout_width="140dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/lemon_chicken"
+                            android:padding="10dp" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/lightGreyLine"
+                            android:layout_margin="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/arbutus_slab"
+                            android:text="@string/wrap"
+                            android:padding="2dp"
+                            android:textColor="@color/darkGrey" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!--second recipe-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/med_salad"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="180dp"
+                    android:layout_height="220dp"
+                    android:layout_margin="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:layout_width="140dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/mediterranean_salad"
+                            android:padding="10dp" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/lightGreyLine"
+                            android:layout_margin="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/arbutus_slab"
+                            android:text="@string/salad"
+                            android:padding="2dp"
+                            android:textColor="@color/darkGrey" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <!--third recipe-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pesto_pasta"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="180dp"
+                    android:layout_height="220dp"
+                    android:layout_margin="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:layout_width="140dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/pesto_penne"
+                            android:padding="10dp" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/lightGreyLine"
+                            android:layout_margin="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/arbutus_slab"
+                            android:text="@string/pasta"
+                            android:padding="2dp"
+                            android:textColor="@color/darkGrey" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!--fourth recipe-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/veg_soup"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="180dp"
+                    android:layout_height="220dp"
+                    android:layout_margin="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:layout_width="140dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/veggie_soup"
+                            android:padding="10dp" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/lightGreyLine"
+                            android:layout_margin="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/arbutus_slab"
+                            android:text="@string/soup"
+                            android:padding="2dp"
+                            android:textColor="@color/darkGrey" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

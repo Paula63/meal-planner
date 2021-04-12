@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">UI_Project</string>
+
+    <!--Titles for onboarding screen -->
+    <string name="title_first_slide">Plan meals</string>
+    <string name="title_second_slide">View recipes based on category</string>
+    <string name="title_third_slide">Explore new dishes</string>
+    <string name="title_fourth_slide">Improve cooking skills</string>
+
+    <!--Descriptions for onboarding screen -->
+    <string name="description_first_slide">Plan yours shopping list based on what you plan to cook</string>
+    <string name="description_second_slide">Find recipe inspiration for breakfast, lunch, dinner or vegan/vegetarian diets</string>
+    <string name="description_third_slide">Expand your recipe horizons</string>
+    <string name="description_fourth_slide">Become the chef you want to be</string>
+
+    <!--Buttons for onboarding screen -->
+    <string name="skip_btn">Skip</string>
+    <string name="continue_btn">Continue</string>
+    <string name="done_btn">Done</string>
+    <string name="submit_btn">Confirm</string>
+
+    <!-- Categories -->
+    <string name="breakfast">Breakfast Recipes</string>
+    <string name="lunch">Lunch Recipes</string>
+    <string name="dinner">Dinner Recipes</string>
+    <string name="vegan">Vegan Recipes</string>
+    <string name="shopping">Shopping List</string>
+
+    <!-- Breakfast Recipes -->
+    <string name="toast">Egg, Smoked Salmon and Avocado Toast</string>
+    <string name="blueberry">Breakfast Doughnuts with Blueberry Jam</string>
+    <string name="apple">Caramel Apple French Toast Casserole</string>
+    <string name="chewy">Super Toasted Granola with Chewy Fruit</string>
+
+    <!-- Lunch Recipes -->
+    <string name="salad">Mediterranean Grilled Chicken Salad</string>
+    <string name="wrap">Lemon Chicken Wraps with Tomatoes</string>
+    <string name="pasta">Coriander Pesto Penne with Orange</string>
+    <string name="soup">Homemade Vegetable Soup with Turkey</string>
+
+    <!-- Dinner Recipes -->
+    <string name="noodles">Stir-fried Egg Noodles with Shredded Chicken</string>
+    <string name="salmon">Teriyaki salmon with green beans and rice</string>
+    <string name="pasta_bake">Gooey Cheese and Chicken Pasta Bake</string>
+    <string name="creamy">Creamy Stew with Smashed Mini Potatoes</string>
+
+    <!-- Vegan Recipes -->
+    <string name="tomato">Italian Roast Tomato and Crispy Bread Soup</string>
+    <string name="squash">Baked squash with Rice and Onion</string>
+    <string name="coconut">Pumpkin, Chickpea and Coconut Curry</string>
+    <string name="cauliflower">Greek-inspired Cauliflower Stew</string>
+
+    <!-- menu -->
+    <string name="nav_home">Home</string>
+    <string name="nav_shopping">Shopping List</string>
+    <string name="nav_login">Login</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_register">Register</string>
+    <string name="sort_list">Alphabetical Sort</string>
+    <string name="add_item_list">Add Item</string>
+    <string name="clear_item_list">Clear List</string>
+
+    <!--App title and slogan-->
+    <string name="title">cookbook</string>
+    <string name="slogan">Meal Planner</string>
+    <string name="title_activity_shopping__list">Shopping_List</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <!-- recipes ingredients-->
+    <string name="ingredients">Ingredients</string>
+    <string name="directions">Directions</string>
+    <string name="ingr_tomato_soup">2 kg ripe tomatoes\n2 red onions, olive oil\n1 litre organic vegetable stock\n1 pinch of dried oregano\na sprigs of fresh basil\nred wine vinegar\nextra virgin olive oil\n1 x 280g ciabatta loaf</string>
+    <string name="dir_tomato_soup">- Preheat the oven to 200°C/400°F/gas 6.\n- Halve the tomatoes and place cut-side up in a large roasting tray.\n- Break the garlic bulb into cloves.\n- Peel and slice the onions into 3cm wedges, then scatter both into the tray.
+        \n- Sprinkle with oregano, season with sea salt and black pepper, then drizzle with oil.\n- Pour in the stock, then roughly chop and add the basil stalks with most of the leaves.\n- Cut the ciabatta loaf in half and tear one half into the soup.\nBring to the boil, then simmer for 10 minutes.
+        \n- Meanwhile, put a griddle pan on a high heat.\n- Slice the remaining ciabatta and griddle until lightly charred on both sides.</string>
+    <string name="ingr_salad">- 2 boneless skinless chicken breasts (about 1 1/4 pounds)\n- 1 tsp. ground coriander\n- 1 tsp. dried oregano\n- 5 tbsp. extra-virgin olive oil\n- 4 tbsp. red wine vinegar\n- 1 tbsp. freshly chopped parsley
+        \n- 3 Persian cucumbers, thinly sliced\n- 1 c. grape or cherry tomatoes, halved\n- 2 avocados, sliced\n- 4 oz. feta, crumbled\n- 1/2 c. pitted kalamata olives, halved</string>
+    <string name="dir_salad">- Heat grill to medium-high. Season chicken with coriander, oregano, salt, and pepper. Grill, covered, turning halfway through, until golden and no longer pink, 18 to 22 minutes. Let rest 5 minutes, then slice.\n- Meanwhile, make dressing. Whisk olive oil, red wine vinegar, and parsley in a small bowl and season with salt and pepper.
+        \n- Divide lettuce, cucumbers, tomatoes, avocado, feta, and olives among four serving bowls. Top with sliced chicken, then drizzle with dressing.</string>
+    <string name="ingr_cauliflower">- 1 lemon\n- olive oil\n- 1 bulb of garlic\n- 2 red onions\n- 10 black olives\n- 300 g new potatoes\n- ½ a bunch of fresh oregano , (15g)\n- 10 large ripe plum tomatoes
+        \n- 1 head of cauliflower , ideally with leaves (800g)\n- 200 g fresh or frozen peas , or broad beans</string>
+    <string name="dir_cauliflower">- Preheat the oven to 200ºC/400ºF/gas 6. Use a speed-peeler to strip the lemon zest into a large casserole pan on a medium heat, then add 2 tablespoons of oil and the garlic bulb. Peel and quarter the onions and separate into petals, destone the olives, and slice the potatoes 1cm-thick. Add to the pan, pick in the oregano leaves and cook for 5 minutes, or until just starting to soften and colour. Quarter and add the tomatoes, then season to taste with sea salt and black pepper.
+        \n- Pour 500ml of water into the pan and bring to the boil, stirring well and scraping up any sticky bits from the bottom. Discard just the tatty outer leaves from the cauliflower, then cut a cross into the stalk and push it right down to the bottom of the pan. Drizzle with 1 tablespoon of oil, cover, then place in the oven for 1 hour, or until golden and caramelised, basting occasionally and removing the lid halfway through.
+        \n- Remove the cauliflower to a serving platter and pick out the garlic bulb, then place the pan back over a medium heat on the hob, stir in the peas or broad beans, and simmer for 5 minutes. Carefully squeeze all the garlic out of the skins and stir back into the pan. Taste and tweak the seasoning, if needed, then pour over the cauliflower and finish with a good squeeze of lemon juice.</string>
+    <string name="ingr_squash">- 1 butternut squash\n- olive oil\n- 1 red onion\n- 1 clove of garlic\n- 1 bunch of fresh sage , (30g)\n- 10 sun-dried tomatoes\n- 75 g vac-packed chestnuts\n- 75 g basmati rice\n- 75 g dried cranberries\n- 1 pinch of ground allspice</string>
+    <string name="dir_squash">- Preheat the oven to 180°C/350°F/gas 4. Wash the squash, carefully cut it in half lengthways, then remove and reserve the seeds. Use a spoon to score and scoop some flesh out, making a gully for the stuffing all along the length of the squash. Finely chop the scooped-out flesh with the seeds and put into a frying pan on a medium heat with 2 tablespoons of oil.
+        \n- Peel, finely chop and add the onion and garlic, stirring regularly while you pick the sage leaves and finely chop them with the sun-dried tomatoes and chestnuts. Stir into the pan with the rice, cranberries and allspice, add a good pinch of sea salt and black pepper and a swig of red wine, and mix well. Fry for 10 minutes, or until softened, stirring occasionally.
+        \n- Pack the mixture tightly into the gully in the two squash halves, then press the halves firmly back together. Rub the skin of the squash with a little oil, salt and pepper, and if you’ve got them, pat on any extra herb leaves you have to hand. Place the squash in the centre of a double layer of tin foil, then tightly wrap it up. Bake for around 2 hours, or until soft and cooked through.</string>
+    <string name="ingr_coconut">- 1 pumpkin , or squash\n- 4 cm piece of ginger\n- 4 shallots\n- 4 cloves of garlic\n- 1 fresh red chilli\n- 1 bunch fresh coriander\n- groundnut oil
+        \n- 1 teaspoon mustard seeds\n- 20 curry leaves\n- 1 teaspoon turmeric\n- 1 x 400 g tin of chopped tomatoes\n- 2 x 400 g tins of light coconut milk\n- 2 x 400 g tins of chickpeas</string>
+    <string name="dir_coconut">- Chop the pumpkin or squash into 3cm chunks and cut the ginger into matchsticks. Pick the coriander leaves and finely chop the stalks.
+        \n- Pour a good lug of groundnut oil into a large saucepan and place on a high heat. Add the ginger, garlic, red chilli and shallots, then reduce to a medium heat. Cook until golden, stirring occasionally, then add the mustard seeds, curry leaves, and coriander stalks and fry until the curry leaves go crispy.
+        \n- Add the turmeric, tomatoes and coconut milk. Bring to the boil, then add the pumpkin and chickpeas. Reduce to a low heat, cover with a lid and simmer for 45 minutes. Check occasionally and add a splash of water if it looks a bit dry.
+        \n- When the time’s up, take the lid off and cook for a further 15 minutes or so until the sauce is lovely and thick.</string>
+    <string name="ingr_wrap">- 1/4 c. plus 2 tbsp. extra-virgin olive oil, divided\n- Juice of 3 lemons, divided\n- 2 cloves garlic, minced\n- 1 tsp. Italian seasoning\n- Kosher salt\n- Freshly ground black pepper
+        \n- 1 lb. boneless skinless chicken breasts\n- 1/2 c. plain Greek yogurt\n- 1/2 tsp. paprika\n- Hot sauce, to taste\n- Pita bread\n- Butterhead lettuce\n- Sliced tomatoes</string>
+    <string name="dir_wrap">- Make marinade: In a small bowl, whisk together 1/4 cup oil, juice of 2 lemons, garlic, Italian seasoning, salt, and pepper. To a large ziploc bag, add chicken breasts and marinade and toss to coat. Let marinate for at least 30 minutes and up to 4 hours.
+        \n- In a large skillet over medium-high heat, heat remaining two tablespoons oil. Add chicken breasts and cook until golden and cooked through, about 8 minutes per side. Remove from pan and let rest a few minutes, then slice.
+        \n- Make spicy yogurt sauce: In a small bowl, mix together yogurt, hot sauce, remaining lemon juice, and season with paprika and more salt.
+        \n- Assemble wraps: To a piece of pita, add lettuce, tomato, chicken slices, and drizzle with spicy yogurt sauce. Wrap in a piece of parchment and serve.</string>
+    <string name="ingr_pesto">- 100 g Cashew Nuts\n-0.5 - Lime juice only\n- 1 tsp Salt\n- 50 g Fresh Coriander including stalks
+        \n- 2 small Orange peeled and cut into bite-sized pieces\n- 150 ml Sunflower Oil\n- 500 g Wholemeal Penne\n- 3 cloves Garlic</string>
+    <string name="dir_pesto">- Peel the garlic and put it in a blender with the rest of the pesto ingredients and whizz until smooth.
+        \n- Cook the pasta in a large pot of boiling salted water as per the packet instructions, which is normally 10 to 12 minutes. Drain and rinse.
+        \n- Put the drained pasta back in the same pot along with the pesto and stir together until well mixed and everything is hot. Stir the orange pieces through the pasta and serve straight away.</string>
+    <string name="ingr_veggie">- 1 pinch Black Pepper\n- 1 head Broccoli chopped\n- 1 knob Butter\n- 1 litre Chicken Stock Cube\n- 300 g Cooked Turkey diced\n- 4 cloves Garlic chopped
+        \n- 3 Onions chopped\n- 1 pinch Salt\n- 1 Carrot chopped\n- 0.5 head Cauliflower chopped\n- 1 Courgette chopped\n- 2 tbsp Cream\n- 2 Leek</string>
+    <string name="dir_veggie">- Melt the butter in a large pan set over a medium heat, then sweat the onions and garlic for 10 minutes. Add the leeks and sweat for a further 5 minutes before adding the remaining vegetables.
+        \n- Cover the vegetables with the stock, adding a little extra water if necessary. Bring to the boil, then reduce the heat and simmer for 15 minutes, until the vegetables are tender.
+        \n- Blend the soup to a smooth consistency using a hand blender. (If you’re using a large blender, allow the soup to cool before blending, as you should never blend hot liquid in a blender.)
+        \n- Add the soup back into the pot with the turkey and cook for another 10 minutes, until the meat is fully reheated. Finally, stir in the cream and season with a pinch of salt and pepper.</string>
+    <string name="ingr_noodles">- 225g dried or fresh egg noodles\n- 1 tbsp sesame oil, plus 1 tsp\n- 100g boneless, skinless chicken breasts, cut into fine shreds\n- 2½ tbsp groundnut oil
+        \n- 2 garlic cloves, finely chopped\n- 50g mangetout, finely shredded\n- 50g prosciutto or cooked ham, finely shredded\n- 2 tsp light soy sauce\n- 2 tsp dark soy sauce
+        \n- 1 tbsp Shaohsing rice wine or dry sherry\n- ½ tsp freshly ground white pepper\n- ½ tsp golden caster sugar\n- 2 spring onions, finely chopped</string>
+    <string name="dir_noodles">- Cook 225g egg noodles in a large pan of boiling water for 3-5 mins, then drain and put them in cold water. Drain thoroughly, toss them with 1 tbsp sesame oil and set aside.
+        \n- Combine 100g chicken breasts, cut into fine shreds, with 2 tsp light soy sauce, 2 tsp Shaohsing rice wine or dry sherry, 1 tsp sesame oil, ½ tsp white pepper and ½ tsp salt for the marinade, mix well and then leave to marinate for about 10 mins.
+        \n- Heat a wok over a high heat. Add 1 tbsp groundnut oil and, when it is very hot and slightly smoking, add the chicken shreds.
+        \n- Stir-fry for about 2 mins and then transfer to a plate. Wipe the wok clean, reheat until it is very hot then add 1½ tbsp groundnut oil.
+        \n- When the oil is slightly smoking, add the 2 finely chopped garlic cloves and stir-fry for 10 seconds. Add 50g finely shredded mangetout and 50g finely shredded prosciutto, and stir-fry for about 1 min.
+        \n- Add the noodles, 2 tsp light soy sauce, 2 tsp dark soy sauce,1 tbsp Shaohsing rice wine or dry sherry, ½ tsp white pepper, ½ tsp golden caster sugar, 2 finely chopped spring onions and 1 tsp salt.
+        \n- Stir-fry for 2 mins. Return the chicken and any juices to the noodle mixture. Stir-fry for about 3-4 mins or until the chicken is cooked.</string>
+    <string name="ingr_salmon">- 4 salmon fillets\n- 100g green beans , ends trimmed\n- 1 lemon , cut into wedges\n- 2 tbsp low-salt soy sauce\n- 1 tbsp honey\n- 1 tbsp mirin\n- 1 garlic clove , crushed\n- 500g rice</string>
+    <string name="dir_salmon">- Heat oven to 180C/160C fan/gas 4. If you have a whole piece of salmon, cut it into four fillets. Place a sheet of baking parchment on a baking tray and lay the salmon diagonally across it.
+        \n- Cook the beans in boiling water for 1 min and drain. Arrange the beans in piles around the salmon and add the lemon wedges to the baking tray. Mix the soy sauce, honey, mirin and garlic, and pour half of it over the beans and salmon.
+        \n- Cook for 15 mins, then pour the rest of the sauce over the salmon. Cook for another 5 mins. Squeeze over the lemon and serve with rice.</string>
+    <string name="ingr_pasta_bake">- 4 tbsp olive oil\n- 1 onion , finely chopped\n- 2 garlic cloves , crushed\n- ¼ tsp chilli flakes\n- 2 x 400g cans chopped tomatoes\n- 1 tsp caster sugar
+        \n- 6 tbsp mascarpone\n- 4 skinless chicken breasts, sliced into strips\n- 300g penne\n- 70g mature cheddar , grated\n- 50g grated mozzarella\n- ½ small bunch of parsley , finely chopped</string>
+    <string name="dir_pasta_bake">- Heat 2 tbsp of the oil in a pan over a medium heat and fry the onion gently for 10-12 mins. Add the garlic and chilli flakes and cook for 1 min.
+        \n- Tip in the tomatoes and sugar and season to taste. Simmer uncovered for 20 mins or until thickened, then stir through the mascarpone.
+        \n- Heat 1 tbsp of oil in a non-stick frying pan. Season the chicken and fry for 5-7 mins or until the chicken is cooked through.
+        \n- Heat the oven to 220C/200C fan/gas 7. Cook the penne following pack instructions. Drain and toss with the remaining oil. Tip the pasta into a medium sized ovenproof dish. Stir in the chicken and pour over the sauce.
+        \n- Top with the cheddar, mozzarella and parsley. Bake for 20 mins or until golden brown and bubbling.</string>
+    <string name="ingr_creamy">- 3 leeks , halved and finely sliced\n- 2 tbsp olive oil , plus extra if needed\n- 1 tbsp butter\n- 8 small chicken thighs\n- 500ml chicken stock
+        \n- 1 tbsp Dijon mustard\n- 75g crème fraîche\n- 200g frozen peas\n- 3 tbsp dried or fresh breadcrumbs\n- small bunch of parsley , finely chopped</string>
+    <string name="dir_creamy">- Tip the leeks and oil into a flameproof casserole dish on a low heat, add the butter and cook everything very gently for 10 mins or until the leeks are soft.
+        \n- Put the chicken, skin-side down, in a large non-stick frying pan on a medium heat, cook until the skin browns, then turn and brown the other side. You shouldn’t need any oil but if the skin starts to stick, add a little. Add the chicken to the leeks, leaving behind any fat in the pan.
+        \n- Add the stock to the dish and bring to a simmer, season well, cover and cook for 30 mins on low. Stir in the mustard, crème fraîche and peas and bring to a simmer. You should have quite a bit of sauce.
+        \n- When you’re ready to serve, put the grill on. Mix the breadcrumbs and parsley, sprinkle them over the chicken and grill until browned.</string>
+    <string name="ingr_toast">- knob of butter\n- 2 slices white bread\n- ½ ripe avocado\n- ½ lemon , plus a wedge to serve\n- handful watercress\n- 1 large egg\n- few slices smoked salmon</string>
+    <string name="dir_toast">- Heat a large frying pan over a medium heat. Butter both sides of each slice of bread, then cut a large heart (or circle) out of the centre of one slice using a knife or biscuit cutter.
+        \n- Place the slices of bread, including the cut-out piece, into the frying pan and cook for 2 mins until golden. While the bread is cooking, slice the avocado and squeeze over the lemon juice. Toss the watercress in a little lemon juice, too.
+        \n- Flip the bread over, then crack the egg into the cut-out hole. After 1-2 mins, the whole slice of bread and cut-out piece should be golden brown on both sides. Transfer to a plate.
+        \n- Cover the pan with a lid, or some foil, and lower the heat. Continue cooking for a further 1-2 mins until the egg is done to your liking.
+        \n- Top the toasted slice of bread with the avocado, smoked salmon and watercress, and season with a twist of pepper. Put the egg-in-the-hole slice on top and serve with an extra wedge of lemon, if you like.</string>
+    <string name="ingr_donuts">- 100g Medjool dates\n- 100g wholemeal self-raising flour\n- 100g self-raising flour , plus extra for dusting\n- 30g ground almonds\n- 1 large free-range egg
+        \n- olive oil\n- 320g blueberries\n- 1 tablespoon runny honey\n- 4 tablespoons Greek yoghurt\n- ground cinnamon</string>
+    <string name="dir_donuts">- Tear the stones out of the dates and place the flesh in a food processor with the flours, ground almonds, egg, a tiny pinch of sea salt and 70ml of water.
+        \n- Blitz until combined and forming a ball of dough, then roughly knead on a clean flour-dusted surface for just 2 minutes.
+        \n- Roll out the dough 1.5cm thick, then use an 8cm cutter to cut out two rounds. Use a 3cm cutter to cut a hole in the centre of each one, then use those centre bits and the remaining cut-offs of dough to roll it out again, repeating the process until you have four doughnuts in total.
+        \n- Simmer the doughnuts in a large pan of gently boiling water for 5 minutes, very carefully turning them over halfway through.
+        \n- Place a large frying pan on a medium heat with 1 tablespoon of oil. Drain the doughnuts well, then carefully transfer them to the frying pan to get golden for 10 minutes, turning regularly to build up a nice crust.
+        \n- Once looking good, add the blueberries to the pan, then drizzle over the honey. Jiggle and shake the pan over the heat for a couple of minutes, using a spoon to keep turning the doughnuts in all that lovely jammy blueberry juice.
+        \n- When it looks nice and shiny and the doughnuts are purple, ripple the yoghurt through the pan and divide between your plates. Nice with a sprinkling of cinnamon, to finish.</string>
+    <string name="ingr_granola">- 8 tablespoons honey\n- 75 g skin-on almonds\n- 300 g rolled oats\n- 40 g sunflower seeds\n- 40 g pumpkin seeds\n- 30 g desiccated coconut
+        \n- 50 g dates\n- 50 g dried sour cherries\n- 50 g dried apricots\n- 50 g dried peaches</string>
+    <string name="dir_granola">- Preheat the oven to 150ºC/300ºF/gas 2 and warm the honey through in a saucepan.
+        \n- Chop up the almonds then spread over a large baking tray with the oats, seeds and coconut.
+        \n- Pour over the warm honey and mix with a spoon, then pop in the oven for 20 minutes, stirring every so often.
+        \n- Meanwhile, destone the dates and chop up with the rest of the fruit.
+        \n- After 20 minutes, add all the fruit, stir once and put it back in the oven for another 10 minutes. It should be clumping together nicely.
+        \n- Remove from the oven and allow to cool before breaking it up and storing in jars or airtight containers for up to 1 month.
+        \n- Serve with yoghurt and fresh or poached seasonal fruit.</string>
+    <string name="ingr_apple">- 1 loaf french bread\n- 6 eggs\n- 1 1/2 cups milk\n- 1/3 cup sugar\n- 1 Tbsp. vanilla\n- 6 apples peeled, cored, and sliced
+        \n- 1/2 cup sugar\n- 1/2 cup brown sugar\n- cinnamon to taste\n- nutmeg to taste\n- 1 jar caramel topping</string>
+
+    <string name="dir_apple">- Cut bread into large slices (about 3 inches wide) and arrange in a lightly sprayed 9x13 inch pan.
+        \n- In a large bowl beat together eggs, milk, sugar, and vanilla. Pour mixture over bread slices. Arrange apples on top of bread.
+        \n- Sprinkle cinnamon, nutmeg, and sugars (sprinkle the brown sugar the most generously) over the apples. Cover and refrigerate overnight.
+        \n- In the morning bake for 1 hour at 350 until golden brown.
+        \n- Top with your favorite caramel topping. Mrs. Richardsons Butterscotch Caramel is our favorite but even better than that is making it from bagged caramels: 1 pkg wrapped caramels and 2/3 cup whipping cream.
+        Melt together in microwave.</string>
+
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Enter Full Name</string>
+    <string name="email">Enter E-mail</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="phone_no">Enter Phone Number</string>
+
+</resources>

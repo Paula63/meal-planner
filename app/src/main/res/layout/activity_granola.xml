@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Granola">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:fitsSystemWindows="true"
+        android:background="@color/colorPrimary">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:collapsedTitleTextAppearance="@style/ListTheme"
+            app:expandedTitleTextAppearance="@style/ListTheme"
+            app:collapsedTitleGravity="start"
+            app:expandedTitleGravity="center_horizontal"
+            app:contentScrim="@color/backgroundColor"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/granola"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:theme="@style/ListTheme"
+                android:contentInsetStart="72dp"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_vertical"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary" >
+
+            <!-- recipe name -->
+            <TextView
+                android:id="@+id/recipe_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/chewy"
+                android:paddingLeft="13dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/darkGrey" />
+
+            <!-- ingredients -->
+            <RelativeLayout
+                android:id="@+id/scroll_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recipe_title"
+                android:layout_margin="20dp"
+                android:elevation="20dp"
+                android:background="@drawable/curve_background" >
+
+                <RelativeLayout
+                    android:id="@+id/box_one"
+                    android:layout_width="30dp"
+                    android:layout_height="250dp"
+                    android:background="@color/yellow" />
+
+                <TextView
+                    android:id="@+id/text_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/box_one"
+                    android:layout_toRightOf="@id/box_one"
+                    android:text="@string/ingredients"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/darkGrey"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_one"
+                    android:text="@string/ingr_granola"
+                    android:layout_toEndOf="@id/box_one"
+                    android:layout_toRightOf="@id/box_one"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp" />
+
+
+
+            </RelativeLayout>
+
+            <!-- description -->
+            <RelativeLayout
+                android:id="@+id/scroll_two"
+                android:layout_below="@id/scroll_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/curve_background" >
+
+                <RelativeLayout
+                    android:id="@+id/box_two"
+                    android:layout_width="30dp"
+                    android:layout_height="400dp"
+                    android:background="@color/coral" />
+
+                <TextView
+                    android:id="@+id/text_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/box_two"
+                    android:layout_toRightOf="@id/box_two"
+                    android:text="@string/directions"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/darkGrey"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_two"
+                    android:text="@string/dir_granola"
+                    android:layout_toEndOf="@id/box_two"
+                    android:layout_toRightOf="@id/box_two"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp" />
+
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
